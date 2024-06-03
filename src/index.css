@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.shepherd-element {
+  @apply bg-base-100 shadow-xl p-5 w-96 rounded-lg border-2 border-gray-500;
+}
+
+.shepherd-element .shepherd-cancel-icon {
+  @apply bg-red-500 text-white pl-1 pr-1 mb-5 rounded-sm text-sm;
+}
+
+
